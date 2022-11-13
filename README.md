@@ -10,4 +10,4 @@ First, ensure that you have `npm` installed. Then, in the `switch` directory,
 ```bash
 cargo skyline build --release
 ```
-The plugin build process will run `npm install` and `npm build` automatically and package your web files. However, you can also navigate to the `web` directory and run commands such as `npm start` to streamline frontend development using a local web browser,and only rebuild the plugin when necessary.
+The plugin build process will run `npm install` and `npm build` automatically and package your web files. Currently, this will be rebuilt every time the plugin is built. However, you can also navigate to the `web` directory and run commands such as `npm start` to streamline frontend development using a local web browser,and only rebuild the plugin when necessary.
