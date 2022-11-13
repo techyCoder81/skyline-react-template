@@ -1,7 +1,7 @@
 [package]
-name = "switch"
+name = "skyline-react-template"
 version = "0.1.0"
-authors = []
+authors = ["techyCoder81"]
 edition = "2021"
 
 [package.metadata.skyline]
@@ -11,7 +11,13 @@ titleid = "01006A800016E000" # Smash Ultimate
 crate-type = ["cdylib"]
 
 [dependencies]
-skyline = "0.2.0"
+skyline = { git = "https://github.com/ultimate-research/skyline-rs.git" }
+skyline-web = { version = "0.1.0", features = ["json"] }
+nx-request-handler = { git = "https://github.com/techyCoder81/nx-request-handler" }
+
+[build-dependencies]
+serde = { version = "1.0.136", features = ["derive"] }
+serde_json = "1.0.79"
 
 [profile.dev]
 panic = "abort"
