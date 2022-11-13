@@ -13,6 +13,20 @@
   }
 }
 
+.inline {
+  display: inline;
+}
+
+.sample-buttons {
+  color: rgb(0, 217, 255);
+  background-color: transparent;
+  font-size: x-large;
+}
+
+.sample-buttons:hover {
+  background-color: slategray;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

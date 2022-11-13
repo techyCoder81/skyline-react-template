@@ -14,10 +14,12 @@ crate-type = ["cdylib"]
 skyline = { git = "https://github.com/ultimate-research/skyline-rs.git" }
 skyline-web = { version = "0.1.0", features = ["json"] }
 nx-request-handler = { git = "https://github.com/techyCoder81/nx-request-handler" }
-
-[build-dependencies]
+include_dir = "0.7.3"
 serde = { version = "1.0.136", features = ["derive"] }
 serde_json = "1.0.79"
+
+[build-dependencies]
+npm_rs = "0.2.1"
 
 [profile.dev]
 panic = "abort"
