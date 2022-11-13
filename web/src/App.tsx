@@ -27,7 +27,12 @@ function App() {
               Play Smash
           </button>
           <button className="sample-buttons" 
-            onClick={async () => messenger.exitApplication()}
+            onClick={async () => messenger.println("This is a statement from the frontend!")}
+            onFocus={() => setButtonInfo("This will send a log statement to the skyline logger.")}>
+              Send Log
+          </button>
+          <button className="sample-buttons" 
+            onClick={async () => messenger.customRequest("custom1", null)}
             onFocus={() => setButtonInfo("This will close the application.")}>
               Exit Game
           </button>

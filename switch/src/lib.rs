@@ -119,6 +119,10 @@ pub fn main() {
         println!("starting engine.");
         RequestEngine::new(session)
             .register_defaults()
+            .register("custom1", None, |_| {
+                println!("custom1 has been called!");
+                Ok("it is done.".to_string())
+            })
             .start();
     });
 
