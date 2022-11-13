@@ -1,5 +1,8 @@
 # skyline-react-template
 This is a template/example application for skyline plugins using a React + TypeScript frontend! Uses `nx-request-api` and `nx-request-handler` to simplify backend calls, which can be expanded on when necessary.
+
+The primary frontend file for the application is [App.tsx](https://github.com/techyCoder81/skyline-react-template/blob/main/web/src/App.tsx).
+
 ![react](https://user-images.githubusercontent.com/42820193/201546415-aa54216a-bc7a-4713-90c7-4fbef44ee196.png)
 
 # Setup
