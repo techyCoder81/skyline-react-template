@@ -3,7 +3,7 @@ This is a template/example application for skyline plugins using a React + TypeS
 
 The primary frontend file for the application is [App.tsx](https://github.com/techyCoder81/skyline-react-template/blob/main/web/src/App.tsx).
 
-![react](https://user-images.githubusercontent.com/42820193/201546415-aa54216a-bc7a-4713-90c7-4fbef44ee196.png)
+![react](https://user-images.githubusercontent.com/42820193/201547733-cc50bd44-5f44-489a-be71-ead80adbc9ae.png)
 
 # Setup
 First, ensure that you have `npm` installed. Then, in the `switch` directory, 
