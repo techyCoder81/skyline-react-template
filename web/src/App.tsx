@@ -33,6 +33,11 @@ function App() {
           </button>
           <button className="sample-buttons" 
             onClick={async () => messenger.customRequest("custom1", null)}
+            onFocus={() => setButtonInfo("This will invoke the 'custom1' backend handler.")}>
+              Custom1
+          </button>
+          <button className="sample-buttons" 
+            onClick={async () => messenger.exitApplication()}
             onFocus={() => setButtonInfo("This will close the application.")}>
               Exit Game
           </button>
